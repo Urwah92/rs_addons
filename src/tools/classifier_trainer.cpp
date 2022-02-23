@@ -3,14 +3,14 @@
 #include <uima/api.hpp>
 #include <pcl/point_types.h>
 
-#include <rs/types/all_types.h>
-#include <rs/scene_cas.h>
-#include <rs/utils/time.h>
-#include <rs/DrawingAnnotator.h>
+#include <robosherlock/types/all_types.h>
+#include <robosherlock/scene_cas.h>
+#include <robosherlock/utils/time.h>
+#include <robosherlock/DrawingAnnotator.h>
 
-#include <rs_addons/classifiers/RSSVM.h>
-#include <rs_addons/classifiers/RSRF.h>
-#include <rs_addons/classifiers/RSKNN.h>
+#include <rs_classifiers/classifiers/RSSVM.h>
+#include <rs_classifiers/classifiers/RSRF.h>
+#include <rs_classifiers/classifiers/RSKNN.h>
 
 #include <boost/filesystem.hpp>
 #include <boost/algorithm/string.hpp>
